@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <head>
+      <meta charset="UTF-8">
+      <title>Robyn's Trivia Game</title>
+      <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+      <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    </head>
+  </head>
+  <body>
+  <div class="container">
+    <h1>Cool Chicago Cubs Trivia</h1>
+    <br>
+
+    <div id="start">
+    <button type="button" id="start-button" class="btn btn-secondary btn-lg btn-block">CLICK HERE TO START GAME</button>
+    </div>
+
+    <div id="game">
+
+      <div class="questions" id="myForm">
+
+      <h2 id="#timer">Time Remaining</h2>
+      <br>
+
+        <h3>Where do the Cubs play their home games?</h3>
+        <br>
+
+        <div class="form-check form-check-inline" >
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="rightAnswerButton" value="right">
+          <label class="form-check-label" for="inlineRadio1">Wrigley Field</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="wrongAnswerButton" value="wrong">
+          <label class="form-check-label" for="inlineRadio2">Target Field</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="wrongAnswerButton" value="wrong">
+          <label class="form-check-label" for="inlineRadio3">Cubs Park</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="wrongAnswerButton" value="wrong">
+          <label class="form-check-label" for="inlineRadio4">Fenway Park</label>
+        </div>
+
+        <h3>What year did the Cubs win their first World Series?</h3>
+        <br>
+
+        <div class="form-check form-check-inline" >
+          <input class="form-check-input" type="radio" name="inlineRadioOptions2" id="rightAnswerButton2" value="right">
+          <label class="form-check-label" for="inlineRadio1">1907</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions2" id="wrongAnswerButton" value="wrong">
+          <label class="form-check-label" for="inlineRadio2">1908</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions2" id="wrongAnswerButton" value="wrong">
+          <label class="form-check-label" for="inlineRadio3">2016</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions2" id="wrongAnswerButton" value="wrong">
+          <label class="form-check-label" for="inlineRadio4">1982</label>
+        </div>
+
+      </div>
+
+      <button type="button" id="done-button" class="btn btn-primary btn-lg">DONE</button>
+
+    </div>
+
+    <div id="results">
+      <p id="rightText"></p>
+      <p id="wrongText"></p>
+      <p id="unansweredText"></p>      
+    </div>
+
+  </div>
+
+  <!-- jQuery library -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- My JS File-->
+  <script src="assets/javascript/app.js"></script>
+
+  </body>
+</html>
